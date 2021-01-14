@@ -13,18 +13,13 @@ body{
   height: 200px;
   display: flex;
   flex-direction: row;
-  /* background-color: black; */
 }
-
-/* input{
-
-} */
 
 .keys{
   transition: box-shadow .3s;
   margin-right: 3px;
   height: 100%;
-  width: calc(100% / 9);
+  width: calc(100% / 10);
   border: 1px solid #ccc;
   background-color: white;
 }
@@ -37,6 +32,6 @@ body{
   width: calc(100% / 9);
   border: 1px solid #ccc;
   background-color: white;
-  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  box-shadow: 0 0 11px rgba(33,33,33,.5); 
   outline: none;
 }
