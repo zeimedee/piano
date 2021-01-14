@@ -35,3 +35,10 @@ body{
   box-shadow: 0 0 11px rgba(33,33,33,.5); 
   outline: none;
 }
+
+@media(max-width: 600px){
+  .keyboard{
+    margin-top: 400px;
+    transform: rotate(90deg);
+  }
+}
