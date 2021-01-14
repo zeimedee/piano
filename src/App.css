@@ -4,13 +4,23 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color:whitesmoke;
+  background-color:lightgray;
 }
 
-.keyboard{
+.keyboard-body{
   margin-top: 50px;
   width: 900px;
   height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: black;
+}
+
+.keyboard{
+  width: 97%;
+  height: 97%;
   display: flex;
   flex-direction: row;
 }
@@ -22,6 +32,8 @@ body{
   width: calc(100% / 10);
   border: 1px solid #ccc;
   background-color: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 .keys:focus{
   outline: none;
@@ -29,15 +41,17 @@ body{
 .keyPressed{
   margin-right: 3px;
   height: 100%;
-  width: calc(100% / 9);
+  width: calc(100% / 10);
   border: 1px solid #ccc;
   background-color: white;
-  box-shadow: 0 0 11px rgba(33,33,33,.5); 
+  box-shadow: 0 0 50px lightblue; 
   outline: none;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 @media(max-width: 600px){
-  .keyboard{
+  .keyboard-body{
     margin-top: 400px;
     transform: rotate(90deg);
   }

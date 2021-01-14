@@ -131,59 +131,63 @@ function App() {
 
   return (
     <div className="App">
-     <div className='keyboard'>
-          <div className={pressed1} 
-                onKeyDown={handleKey} 
-                onKeyUp={released}
-                ref={divRef}
-                tabIndex="0"></div>
+    <div className='keyboard-body'>
+        <div className='keyboard'>
+              <div className={pressed1} 
+                    onKeyDown={handleKey} 
+                    onKeyUp={released}
+                    ref={divRef}
+                    tabIndex="0"></div>
 
-          <div className={pressed2} 
-                onKeyDown={handleKey} 
-                onKeyUp={released}
-                ref={divRef}
-                tabIndex="1"></div>
+              <div className={pressed2} 
+                    onKeyDown={handleKey} 
+                    onKeyUp={released}
+                    ref={divRef}
+                    tabIndex="1"></div>
 
-          <div className={pressed3} 
-                onKeyDown={handleKey} 
-                onKeyUp={released}
-                tabIndex="2"></div>
-                
-          <div className={pressed4} 
-                onKeyDown={handleKey} 
-                onKeyUp={released}
-                tabIndex="3"></div>
+              <div className={pressed3} 
+                    onKeyDown={handleKey} 
+                    onKeyUp={released}
+                    tabIndex="2"></div>
+                    
+              <div className={pressed4} 
+                    onKeyDown={handleKey} 
+                    onKeyUp={released}
+                    tabIndex="3"></div>
 
-          <div className={pressed5} 
-                onKeyDown={handleKey} 
-                onKeyUp={released}
-                tabIndex="4"></div>
+              <div className={pressed5} 
+                    onKeyDown={handleKey} 
+                    onKeyUp={released}
+                    tabIndex="4"></div>
 
-          <div className={pressed6}
-                onKeyDown={handleKey} 
-                onKeyUp={released}
-                tabIndex="5"></div>
+              <div className={pressed6}
+                    onKeyDown={handleKey} 
+                    onKeyUp={released}
+                    tabIndex="5"></div>
 
-          <div className={pressed7} 
-                onKeyDown={handleKey} 
-                onKeyUp={released}
-                tabIndex="6"></div>
+              <div className={pressed7} 
+                    onKeyDown={handleKey} 
+                    onKeyUp={released}
+                    tabIndex="6"></div>
 
-          <div className={pressed8} 
-                onKeyDown={handleKey} 
-                onKeyUp={released}
-                tabIndex="7"></div>
+              <div className={pressed8} 
+                    onKeyDown={handleKey} 
+                    onKeyUp={released}
+                    tabIndex="7"></div>
 
-          <div className={pressed9}
-                onKeyDown={handleKey} 
-                onKeyUp={released}
-                tabIndex="8"></div>
-                
-          <div className={pressed10}
-                onKeyDown={handleKey} 
-                onKeyUp={released}
-                tabIndex="9"></div>
-     </div>
+              <div className={pressed9}
+                    onKeyDown={handleKey} 
+                    onKeyUp={released}
+                    tabIndex="8"></div>
+
+              <div className={pressed10}
+                    onKeyDown={handleKey} 
+                    onKeyUp={released}
+                    tabIndex="9"></div>
+        </div>
+
+        </div>
+     
     </div>
   );
 }
